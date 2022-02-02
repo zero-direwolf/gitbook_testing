@@ -20,6 +20,12 @@ Feeling like an eager beaver? Jump in to the quick start docs and get making you
 
 ## new testing block
 
+{% swagger method="get" path="" baseUrl="https://httpbin.org/get" summary="" %}
+{% swagger-description %}
+test endpoint to implement GET request
+{% endswagger-description %}
+{% endswagger %}
+
 {% tabs %}
 {% tab title="python" %}
 ```python
@@ -29,6 +35,10 @@ print("hello world in python")
 #this is a test file
 
 #adding new line
+```
+
+```markup
+hello world
 ```
 {% endtab %}
 
