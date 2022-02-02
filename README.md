@@ -26,7 +26,7 @@ Feeling like an eager beaver? Jump in to the quick start docs and get making you
 test endpoint to implement GET request
 {% endswagger-description %}
 
-{% swagger-parameter in="header" %}
+{% swagger-parameter in="header" name="name" type="name_first" %}
 
 {% endswagger-parameter %}
 {% endswagger %}
