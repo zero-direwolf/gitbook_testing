@@ -7,6 +7,7 @@ Welcome to MyAPI! Here you'll find all the documentation you need to get up and 
 {% code title="print function" %}
 ```python
 print("new world")
+print("new line")
 ```
 {% endcode %}
 
@@ -24,6 +25,10 @@ Feeling like an eager beaver? Jump in to the quick start docs and get making you
 {% swagger-description %}
 test endpoint to implement GET request
 {% endswagger-description %}
+
+{% swagger-parameter in="header" %}
+
+{% endswagger-parameter %}
 {% endswagger %}
 
 {% tabs %}
